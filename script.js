@@ -156,7 +156,8 @@ function choice (args = '', choices = 'undefined') {
     
 
     // Colocando o resultado na div
-    res.innerHTML = `O escolhido foi: <br> <strong>${rand}</strong>`
+    res.innerHTML += '<br>'
+    res.innerHTML += `O escolhido foi: <br> <strong>${rand}</strong>`
 
 
     // Limpando o array para n ter problemas se recomeçar
