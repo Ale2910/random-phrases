@@ -125,7 +125,7 @@ function limpar() {
 
 
 //! PARTE DAS ESCOLHAS //
-function choice (args = '', choices = 'undefined') {
+function choice (args, choices) {
     
      
     //* >> Parâmetro 1 << 
